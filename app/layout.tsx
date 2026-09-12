@@ -71,6 +71,12 @@ export const metadata: Metadata = {
       "Curated with an art historian's eye. Discover contemporary African masterworks, exhibitions, and digital expressions.",
     images: ["/og-image.jpg"],
   },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/favicon.svg",
+  },
   robots: {
     index: true,
     follow: true,
