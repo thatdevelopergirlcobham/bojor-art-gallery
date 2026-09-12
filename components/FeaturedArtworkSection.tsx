@@ -129,7 +129,7 @@ export default function FeaturedArtworkSection() {
             {/* 2x2 Metadata Cards Grid matching Reference Image */}
             <div className="grid grid-cols-2 gap-3 sm:gap-4 mb-8">
               {/* Card 1: Medium */}
-              <div className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-neutral-900/60 border border-neutral-200/80 dark:border-neutral-800/80 shadow-xs transition-colors">
+              <div className="hover-lift p-4 sm:p-5 rounded-2xl bg-white dark:bg-neutral-900/60 border border-neutral-200/80 dark:border-neutral-800/80 shadow-xs transition-colors cursor-default">
                 <span className="block text-[11px] font-medium tracking-wider uppercase text-neutral-400 dark:text-neutral-500 mb-1.5">
                   Medium
                 </span>
@@ -139,7 +139,7 @@ export default function FeaturedArtworkSection() {
               </div>
 
               {/* Card 2: Dimensions */}
-              <div className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-neutral-900/60 border border-neutral-200/80 dark:border-neutral-800/80 shadow-xs transition-colors">
+              <div className="hover-lift p-4 sm:p-5 rounded-2xl bg-white dark:bg-neutral-900/60 border border-neutral-200/80 dark:border-neutral-800/80 shadow-xs transition-colors cursor-default">
                 <span className="block text-[11px] font-medium tracking-wider uppercase text-neutral-400 dark:text-neutral-500 mb-1.5">
                   Dimensions
                 </span>
@@ -149,7 +149,7 @@ export default function FeaturedArtworkSection() {
               </div>
 
               {/* Card 3: Year Created */}
-              <div className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-neutral-900/60 border border-neutral-200/80 dark:border-neutral-800/80 shadow-xs transition-colors">
+              <div className="hover-lift p-4 sm:p-5 rounded-2xl bg-white dark:bg-neutral-900/60 border border-neutral-200/80 dark:border-neutral-800/80 shadow-xs transition-colors cursor-default">
                 <span className="block text-[11px] font-medium tracking-wider uppercase text-neutral-400 dark:text-neutral-500 mb-1.5">
                   Year Created
                 </span>
@@ -159,7 +159,7 @@ export default function FeaturedArtworkSection() {
               </div>
 
               {/* Card 4: Edition */}
-              <div className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-neutral-900/60 border border-neutral-200/80 dark:border-neutral-800/80 shadow-xs transition-colors">
+              <div className="hover-lift p-4 sm:p-5 rounded-2xl bg-white dark:bg-neutral-900/60 border border-neutral-200/80 dark:border-neutral-800/80 shadow-xs transition-colors cursor-default">
                 <span className="block text-[11px] font-medium tracking-wider uppercase text-neutral-400 dark:text-neutral-500 mb-1.5">
                   Edition
                 </span>

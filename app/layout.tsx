@@ -16,8 +16,72 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Bojor Gallery | Suspended Dreams by Ekaterina Petrova",
-  description: "Mesmerizing exploration of memory and the transient nature of experience by Ekaterina Petrova.",
+  metadataBase: new URL("https://bojorartgallery.com"),
+  title: {
+    default: "Bojor Art Gallery | Home for Every Artist & Tradition",
+    template: "%s | Bojor Art Gallery",
+  },
+  description:
+    "Curated with an art historian's eye by Professor Bojor Enamhe. Bojor Art Gallery is a premier sanctuary celebrating African contemporary fine art, traditional cultural heritage, and vanguard digital mastery.",
+  keywords: [
+    "Bojor Art Gallery",
+    "Professor Bojor Enamhe",
+    "African contemporary art",
+    "Nigerian art curator",
+    "Calabar art gallery",
+    "Art Incubator Calabar",
+    "Suspended Dreams",
+    "fine art gallery",
+    "contemporary African artists",
+    "digital art Africa",
+  ],
+  authors: [
+    {
+      name: "Professor Bojor Enamhe",
+      url: "https://ng.linkedin.com/in/bojor-enamhe-0360bb139",
+    },
+  ],
+  creator: "Professor Bojor Enamhe",
+  publisher: "Bojor Art Gallery",
+  formatDetection: {
+    email: true,
+    telephone: true,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_NG",
+    url: "https://bojorartgallery.com",
+    siteName: "Bojor Art Gallery",
+    title: "Bojor Art Gallery | Curated by Prof. Bojor Enamhe",
+    description:
+      "Curated with an art historian's eye. A home for every kind of artist and tradition — African contemporary masterworks, permanent collections, exhibitions, and curatorial dialogues.",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Bojor Art Gallery - Curated by Prof. Bojor Enamhe",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bojor Art Gallery | Curated by Prof. Bojor Enamhe",
+    description:
+      "Curated with an art historian's eye. Discover contemporary African masterworks, exhibitions, and digital expressions.",
+    images: ["/og-image.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({

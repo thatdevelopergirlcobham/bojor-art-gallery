@@ -73,7 +73,7 @@ export default function CuratorSection() {
                   href="https://ng.linkedin.com/in/bojor-enamhe-0360bb139"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group inline-flex items-center gap-3 pl-2 pr-5 py-2.5 rounded-full bg-neutral-100 dark:bg-neutral-900/80 border border-neutral-200/80 dark:border-neutral-800 text-neutral-900 dark:text-neutral-100 text-xs sm:text-[13.5px] font-medium tracking-wide hover:bg-neutral-200/80 dark:hover:bg-neutral-800 hover:scale-[1.02] active:scale-95 transition-all duration-200 shadow-xs"
+                  className="hover-lift group inline-flex items-center gap-3 pl-2 pr-5 py-2.5 rounded-full bg-neutral-100 dark:bg-neutral-900/80 border border-neutral-200/80 dark:border-neutral-800 text-neutral-900 dark:text-neutral-100 text-xs sm:text-[13.5px] font-medium tracking-wide hover:bg-neutral-200/80 dark:hover:bg-neutral-800 active:scale-95 transition-all duration-200 shadow-xs"
                 >
                   <span className="w-8 h-8 rounded-full bg-neutral-950 dark:bg-white text-white dark:text-neutral-950 flex items-center justify-center transition-colors">
                     {/* LinkedIn SVG */}
@@ -93,7 +93,7 @@ export default function CuratorSection() {
                   href="https://www.instagram.com/bojorenamhe/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group inline-flex items-center gap-3 pl-2 pr-5 py-2.5 rounded-full bg-neutral-100 dark:bg-neutral-900/80 border border-neutral-200/80 dark:border-neutral-800 text-neutral-900 dark:text-neutral-100 text-xs sm:text-[13.5px] font-medium tracking-wide hover:bg-neutral-200/80 dark:hover:bg-neutral-800 hover:scale-[1.02] active:scale-95 transition-all duration-200 shadow-xs"
+                  className="hover-lift group inline-flex items-center gap-3 pl-2 pr-5 py-2.5 rounded-full bg-neutral-100 dark:bg-neutral-900/80 border border-neutral-200/80 dark:border-neutral-800 text-neutral-900 dark:text-neutral-100 text-xs sm:text-[13.5px] font-medium tracking-wide hover:bg-neutral-200/80 dark:hover:bg-neutral-800 active:scale-95 transition-all duration-200 shadow-xs"
                 >
                   <span className="w-8 h-8 rounded-full bg-neutral-950 dark:bg-white text-white dark:text-neutral-950 flex items-center justify-center transition-colors">
                     {/* Instagram SVG */}
